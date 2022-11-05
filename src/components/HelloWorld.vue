@@ -10,8 +10,6 @@ const hi = () => {
     console.log(request)
     message.value = request.data
   })
-
-
 }
 </script>
 

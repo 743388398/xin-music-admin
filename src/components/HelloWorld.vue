@@ -6,10 +6,11 @@ const count = ref(0)
 const message = ref("小新的音乐后台")
 
 const hi = () => {
-  sayHello().then(res => {
-    console.log(res)
+  sayHello().then(request => {
+    console.log(request)
+    message.value = request.data
   })
-  message.value = "已请求"
+
 
 }
 </script>

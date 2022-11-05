@@ -1,9 +1,9 @@
 {
   "containerPort": 80,
   "minNum": 0,
-  "maxNum": 5,
-  "cpu": 1,
-  "mem": 1,
+  "maxNum": 10,
+  "cpu": 0.25,
+  "mem": 0.5,
   "policyType": "cpu",
   "policyThreshold": 60,
   "envParams": {},
